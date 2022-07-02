@@ -1,0 +1,22 @@
+.todos{
+    padding: 0;
+    width: 15em;
+}
+
+.todos li{
+    background-color: red;
+    color: green;
+    padding: 4px;
+    margin: 4px 5px;
+
+}
+
+.cross{
+    float: right;
+    background-color: green;
+    padding: 0px 5px 0px 5 px;
+    border-radius: 5%;
+    cursor: pointer;
+    color: blue;
+
+}
