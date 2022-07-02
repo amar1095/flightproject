@@ -1,0 +1,5 @@
+com\secure\Config\SecurityConfig.class
+com\secure\service\customUserDetailsService.class
+com\secure\SpringSecurityJwtDemoApplication.class
+com\secure\entity\User.class
+com\secure\Repository\UserRepository.class
