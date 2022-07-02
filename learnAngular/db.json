@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "amar",
+      "age": 30,
+      "Gender": "Male",
+      "id": 1
+    },
+    {
+      "name": "raju",
+      "age": "20",
+      "Gender": "Male",
+      "id": 2
+    },
+    {
+      "name": "yutrujjklk",
+      "age": "67",
+      "Gender": "Male",
+      "id": 3
+    }
+  ]
+}
