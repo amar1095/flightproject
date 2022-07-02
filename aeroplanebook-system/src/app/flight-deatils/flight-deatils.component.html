@@ -1,0 +1,42 @@
+
+
+
+
+<h2>Flight Deatails</h2>
+<table class="table table-striped" style="background-color:yellow;"> 
+<thead>
+    <tr>
+        <th>flightNumber</th>
+        <th>flightname</th>
+        <th>flightstartPlace</th>
+        <th>flightDesitination</th>
+        <th>Scheduledays</th>
+        <th>businessseat</th>
+        <th>nonbusinessSeat</th>
+        <th>flightprice</th>
+        <th>updateAction</th>
+        <th>daleteAction</th>
+
+
+
+
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let flight of flights">
+        <td>{{flight.flightNumber}}</td>
+        <td>{{flight.operatingAirlines}}</td>
+        <td>{{flight.fromPlace}}</td>
+        <td>{{flight.toPlace}}</td>
+        <td>{{flight.scheduleDays}}</td>
+        <td>{{flight.businessSeats}}</td>
+        <td>{{flight.nonBusinessSeats}}</td>
+        <td>{{flight.cost}}</td>
+            <td>
+            <button (click) = "updateEmployee(flight.flightNumber)" class = "btn btn-info">Update</button> </td>
+            <td><button (click) = "deleteEmployee(flight.flightNumber)" class = 
+            "btn btn-danger" style="margin-left: 10px"> Delete</button> 
+        </td>
+      </tr>
+</tbody>
+</table>

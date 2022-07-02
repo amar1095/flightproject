@@ -1,0 +1,77 @@
+<div class="col-md-6 offset-md-3" style="background-color: cadetblue;">
+    <h3>User Book Ticket </h3> 
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label>userFirstName</label>
+            <input type="text"   class ="form-control"  id = "fliNum"
+            [(ngModel)]="flight.userFirstName"  name="fliNum">
+        </div>
+
+        <div class="form-group">
+            <label>userLastName</label>
+            <input type="text"   class ="form-control"  id = "fliName"
+            [(ngModel)]="flight.userLastName"  name="fliName">
+        </div>
+
+     <div class="form-group">
+            <label>email</label>
+            <input type="text"   class ="form-control"  id = "fliplaace"
+            [(ngModel)]="flight.email"  name="fliplaace">
+        </div>
+        
+    
+        <div class="form-group">
+            <label>gender</label>
+            <input type="text"   class ="form-control"  id = "flito"
+            [(ngModel)]="flight.gender"  name="flito">
+        </div>
+
+        <div class="form-group">
+            <label>age</label>
+            <input type="text"   class ="form-control"  id = "scheduleDays"
+            [(ngModel)]="flight.age"  name="scheduleDays">
+        </div>
+        <div class="form-group">
+            <label>Seats</label>
+            <input type="text"   class ="form-control"  id = "businessSeats"
+            [(ngModel)]="flight.seat"  name="businessSeats">
+        </div>
+        <div class="form-group">
+            <label>Meal</label>
+            <input type="text"   class ="form-control"  id = "nonBusinessSeats"
+            [(ngModel)]="flight.meal"  name="nonBusinessSeats">
+        </div>
+        <div class="form-group">
+            <label>address</label>
+            <input type="text"   class ="form-control"  id = "cost"
+            [(ngModel)]="flight.address"  name="cost">
+        </div>
+
+        <div class="form-group">
+            <label>ways</label>
+            <input type="text"   class ="form-control"  id = "ways"
+            [(ngModel)]="flight.ways"  name="ways">
+        </div>
+        <div class="form-group">
+            <label>airlineName</label>
+            <input type="text"   class ="form-control"  id = "airlineName"
+            [(ngModel)]="flight.airlineName"  name="airlineName">
+        </div>
+
+        <div class="form-group">
+            <label>fromPlace</label>
+            <input type="text"   class ="form-control"  id = "fromPlace"
+            [(ngModel)]="flight.fromPlace"  name="fromPlace">
+        </div>
+
+        <div class="form-group">
+            <label>toPlace</label>
+            <input type="text"   class ="form-control"  id = "toPlace"
+            [(ngModel)]="flight.toPlace"  name="toPlace">
+        </div>
+        
+        <button class = "btn btn-success" type ="submit">Submit</button>
+    
+    </form>
+    </div> 

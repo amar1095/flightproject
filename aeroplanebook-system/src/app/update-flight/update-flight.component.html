@@ -1,0 +1,68 @@
+<div class="col-md-6 offset-md-3" style="background-color: burlywood;">
+    <h3>add flight details </h3> 
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label>flightNumber</label>
+            <input type="text"   class ="form-control"  id = "fliNum"
+            [(ngModel)]="flight.flightNumber"  name="fliNum">
+        </div>
+
+        <div class="form-group">
+            <label>flightName</label>
+            <input type="text"   class ="form-control"  id = "fliName"
+            [(ngModel)]="flight.operatingAirlines"  name="fliName">
+        </div>
+
+     <div class="form-group">
+            <label>fromPlace</label>
+            <input type="text"   class ="form-control"  id = "fliplaace"
+            [(ngModel)]="flight.fromPlace"  name="fliplaace">
+        </div>
+        
+    
+        <div class="form-group">
+            <label>Destination</label>
+            <input type="text"   class ="form-control"  id = "flito"
+            [(ngModel)]="flight.toPlace"  name="flito">
+        </div>
+
+        <div class="form-group">
+            <label>startDate</label>
+            <input type="text"   class ="form-control"  id = "flidate"
+            [(ngModel)]="flight.startDate"  name="flidate">
+        </div>
+        <div class="form-group">
+            <label>endDate</label>
+            <input type="text"   class ="form-control"  id = "fliend"
+            [(ngModel)]="flight.endDate"  name="fliend">
+        </div>
+        <div class="form-group">
+            <label>scheduleDays</label>
+            <input type="text"   class ="form-control"  id = "scheduleDays"
+            [(ngModel)]="flight.scheduleDays"  name="scheduleDays">
+        </div>
+        <div class="form-group">
+            <label>businessSeats</label>
+            <input type="text"   class ="form-control"  id = "businessSeats"
+            [(ngModel)]="flight.businessSeats"  name="businessSeats">
+        </div>
+        <div class="form-group">
+            <label>nonBusinessSeats</label>
+            <input type="text"   class ="form-control"  id = "nonBusinessSeats"
+            [(ngModel)]="flight.nonBusinessSeats"  name="nonBusinessSeats">
+        </div>
+        <div class="form-group">
+            <label>cost</label>
+            <input type="text"   class ="form-control"  id = "cost"
+            [(ngModel)]="flight.cost"  name="cost">
+        </div>
+        <div class="form-group">
+            <label>dateOfDeparture</label>
+            <input type="text"   class ="form-control"  id = "dateOfDeparture"
+            [(ngModel)]="flight.dateOfDeparture"  name="dateOfDeparture">
+        </div>
+        <button class = "btn btn-success" type ="submit">Submit</button>
+    
+    </form>
+    </div> 

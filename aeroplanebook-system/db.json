@@ -1,0 +1,116 @@
+{
+  "Users":[
+      {
+
+          "userFirstName": "Amar",
+          "userLastName": "Singh",
+          "email": "amar@m",
+          "gender" : "male",
+          "age" : 27,
+          "seat":4,
+          "meal":"veg",
+          "address":"bhabua",
+          "pnrNumber":"ind-3456",
+          "ways" :"one way",
+          "startDate":"2022-06-27",
+          "airlineName":"Indigo",
+          "fromPlace" :"Bbsr",
+          "toPlace" :"Delhi"
+      
+      },
+      {
+
+        "userFirstName": "Ravi",
+        "userLastName": "Singh",
+        "email": "amar@m",
+        "gender" : "male",
+        "age" : 27,
+        "seat":4,
+        "meal":"veg",
+        "address":"bhabua",
+        "pnrNumber":"air-3456",
+        "ways" :"one way",
+        "startDate":"2022-06-27",
+        "airlineName":"Indigo",
+        "fromPlace" :"Bbsr",
+        "toPlace" :"Delhi"
+    
+    },
+
+    {
+
+      "userFirstName": "Pratap",
+      "userLastName": "Singh",
+      "email": "amar@m",
+      "gender" : "male",
+      "age" : 27,
+      "seat":4,
+      "meal":"veg",
+      "address":"bhabua",
+      "pnrNumber":"ind-3456",
+      "ways" :"one way",
+      "startDate":"2022-06-27",
+      "airlineName":"Indigo",
+      "fromPlace" :"Bbsr",
+      "toPlace" :"Delhi"
+  
+  },
+
+  {
+
+    "userFirstName": "ramesh",
+    "userLastName": "Singh",
+    "email": "ramesh@m",
+    "gender" : "male",
+    "age" : 27,
+    "seat":4,
+    "meal":"nonveg",
+    "address":"bhabua",
+    "pnrNumber":"ind-3456",
+    "ways" :"one way",
+    "startDate":"2022-06-27",
+    "airlineName":"Indigo",
+    "fromPlace" :"Bbsr",
+    "toPlace" :"Delhi"
+
+},
+{
+
+  "userFirstName": "Raju",
+  "userLastName": "Singh",
+  "email": "raju@m",
+  "gender" : "male",
+  "age" : 27,
+  "seat":4,
+  "meal":"veg",
+  "address":"bhabua",
+  "pnrNumber":"air-3456",
+  "ways" :"one way",
+  "startDate":"2022-06-27",
+  "airlineName":"Indigo",
+  "fromPlace" :"Bbsr",
+  "toPlace" :"Delhi"
+
+},
+
+{
+
+"userFirstName": "niranjan",
+"userLastName": "Singh",
+"email": "amar@m",
+"gender" : "male",
+"age" : 27,
+"seat":4,
+"meal":"nonveg",
+"address":"bhopal",
+"pnrNumber":"ind-3456",
+"ways" :"one way",
+"startDate":"2022-06-27",
+"airlineName":"Indigo",
+"fromPlace" :"Bbsr",
+"toPlace" :"Delhi"
+
+}
+  ]
+
+}

@@ -1,0 +1,44 @@
+
+<h2>bookTicket Deatails</h2>
+<table class="table table-striped" style="background-color: blueviolet;"> 
+<thead>
+    <tr>
+        <th>userFirstName</th>
+        <th>userLastName</th>
+        <th>email</th>
+        <th>gender</th>
+        <th>Age</th>
+        <th>seat</th>
+        <th>meal</th>
+        <th>address</th>
+        <th>Pnr Number</th>
+        <th>Ways</th>
+        <th>airLine Name</th>
+        <th>fromPlace</th>
+        <th>toPlace</th>
+        <th>status</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let flight of flights">
+        <td>{{flight.userFirstName}}</td>
+        <td>{{flight.userLastName}}</td>
+        <td>{{flight.email}}</td>
+        <td>{{flight.gender}}</td>
+        <td>{{flight.age}}</td>
+        <td>{{flight.seat}}</td>
+
+        <td>{{flight.meal}}</td>
+        <td>{{flight.address}}</td>
+        <td>{{flight.pnrNumber}}</td>
+        <td>{{flight.ways}}</td>
+        <td>{{flight.airlineName}}</td>
+        <td>{{flight.fromPlace}}</td>
+        <td>{{flight.toPlace}}</td>
+
+            <td><button (click) = "deleteEmployee(flight.id)" class = 
+            "btn btn-danger" style="background-color: green;">cancleticket</button> 
+        </td>
+      </tr>
+</tbody>
+</table>
